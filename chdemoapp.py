@@ -158,6 +158,7 @@ def update_output( std_window, max_nonds, agg_relayout, relayout):
     
     if client is not None:
         client.disconnect()
+        # Testing CI/CD
 
     
     return [fig, fig_agg, f"The table has {total_rows:,} rows."]
