@@ -115,7 +115,7 @@ Now create the demo timeseries table with the following SQL command. This only c
 
 ```
 CREATE TABLE demo_ts 
-ENGINE = MergeTree
+ENGINE = MergeTreee
 ORDER BY tuple()
 AS
 SELECT toDateTime(arrayJoin(range(toUInt32(toDateTime('2021-01-01 00:00:00')), toUInt32(toDateTime('2021-01-01 00:10:00')), 1) )) as cdatetime,
