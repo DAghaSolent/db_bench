@@ -17,6 +17,7 @@ There will be submit button that when pressed fetches the data for the plot.
 There will also be a ‘downsampling on-off’ toggle. And a [downsampling](https://clickhouse.com/docs/en/sql-reference/aggregate-functions/reference/largestTriangleThreeBuckets) count text entry.
 
 On pressing ‘submit’ a timer is started that times how long it takes to fetch the data (note this will not include the time taken for the charting library to load it). 
+Test in master branch
 
 The elapsed time will be displayed on the dashboard near the line chart. Text boxes will be populated showing the space taken up on disk for the table, and the number of rows in the table. A text box showing GB of disk storage per million rows will be shown.
 
