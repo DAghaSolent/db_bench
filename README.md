@@ -78,6 +78,8 @@ The steps to install and run it are:
 
 Git clone this repo then create the virtual environment and install the packages:
 
+Testing change for CICD pipeline on a different branch to master 
+
 ```
 cd db_bench
 python -m venv .venv
@@ -115,7 +117,7 @@ Now create the demo timeseries table with the following SQL command. This only c
 
 ```
 CREATE TABLE demo_ts 
-ENGINE = MergeTree
+ENGINE = MergeTreee
 ORDER BY tuple()
 AS
 SELECT toDateTime(arrayJoin(range(toUInt32(toDateTime('2021-01-01 00:00:00')), toUInt32(toDateTime('2021-01-01 00:10:00')), 1) )) as cdatetime,
