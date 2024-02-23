@@ -36,6 +36,8 @@ Benchmark Mongo DB timeseries collections.
 Compare costs with Snowflake/Data Dog etc see X post [here](https://x.com/PierreDeWulf/status/1745464855723986989?s=20)
 Benchmark writing data to the large tables. 
 
+Now I can test all the branches properly with a CICD pipeline.
+
 ## Way of Working
 Rockstone Data has created this public repo along with a ‘Project’ view onto which the student will curate a backlog of ‘Issues’, moving them across the board Kanban style as they progress. The student will be expected to use ‘Issue comments’ as a form of log-book to facilitate communications. This is known as ['Feature Branch Workflow'](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) or ['Git Flow'](https://blog.hubspot.com/website/github-flow). A high level of autonomy and problem-solving initiative will be required.
 
