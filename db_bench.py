@@ -24,6 +24,7 @@ def get_ch_client():
     """Create a Clickhouse DB client object (aka connection)"""
     client = Client(host=CH_HOST, port=CH_PORT, settings={'use_numpy': True}, user=CH_USER, password=CH_PASSWORD)
     return client
+    #Testing some changes
 
 
 def submit_clicked():
